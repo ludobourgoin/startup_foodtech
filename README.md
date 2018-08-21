@@ -1,31 +1,30 @@
-# README
+# Startup Foodtech
+A simple restaurant web page project using jQuery library.
 
-Live: https://startup-foodtech-ludo.herokuapp.com/#
 
-Énoncé:
-- Page web d'un restaurant
-- 3 liens qui sont des tabs (utiliser jQuery sans la méthode .tabs)
-- Faire un caroussel
+## Features
+- 3 Tabs
+- Carousel of images
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Stack
+- Ruby 2.5.1
+- Rails 5.2.1
+- Bootstrap 4
+- font-Awesome
+- jQuery 3
 
-Things you may want to cover:
+## App in production
+https://startup-foodtech-ludo.herokuapp.com/#
 
-* Ruby version
+Or to launch the app on local server:
 
-* System dependencies
+Download repo, then write the following command lines in your terminal
 
-* Configuration
+`bundle install`
+`rails db:create`
+`rails db:migrate`
 
-* Database creation
+## Life advice
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+“There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.”
+Ernest Hemingway
