@@ -21,10 +21,13 @@ Or to launch the app on local server:
 Download repo, then write the following command lines in your terminal
 
 `bundle install`
+
 `rails db:create`
+
 `rails db:migrate`
 
 ## Life advice
 
 “There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.”
+
 Ernest Hemingway
