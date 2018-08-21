@@ -10,7 +10,7 @@ A simple restaurant web page project using jQuery library.
 - Ruby 2.5.1
 - Rails 5.2.1
 - Bootstrap 4
-- font-Awesome
+- Font-Awesome
 - jQuery 3
 
 ### 🚀  App 
