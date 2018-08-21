@@ -20,7 +20,9 @@ Or just launch the app on your local server :
 
 Download repo, then write the following command lines in your terminal.
 
-`$ bundle install`
+`
+$ bundle install
+`
 
 `$ rails db:create`
 
