@@ -1,19 +1,23 @@
-$(document).ready(function(){
-    $('#menu-content, #book-content').hide();
-  }
-);
-
-$('#presentation-title').on('click', function(){
-  $('#presentation-content').show();
+$(document).ready(function() {
   $('#menu-content, #book-content').hide();
-});
+console.log("ready")
 
-$('#menu-title').on('click', function(){
-  $('#menu-content').show();
-  $('#presentation-content, #book-content').hide();
-});
+  $('#presentation-title').on('click', function() {
+    console.log(1)
+    $('#menu-content, #book-content').hide();
+    $('#presentation-content').show();
 
-$('#book-title').on('click', function(){
-  $('#book-content').show();
-  $('#presentation-content, #menu-content').hide();
+  });
+
+  $('#menu-title').on('click', function() {
+    console.log(2)
+
+    $('#presentation-content, #book-content').hide();
+    $('#menu-content').show();
+  });
+
+  $('#book-title').on('click', function() {
+    $('#presentation-content, #menu-content').hide();
+    $('#book-content').show();
+  });
 });

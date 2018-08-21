@@ -1,22 +1,42 @@
 <div class="tabs-title">
   <ul class="list-inline text-center">
-    <li class="list-inline-item"><a href="#" id="presentation-title"><h2>Presentation</h2></a></li>
-    <li class="list-inline-item"><a href="#" id='menu-title'><h2>Menu</h2></a></li>
-    <li class="list-inline-item"><a href="#"id="book-title"><h2>Cook book</h2></a></li>
+    <li class="list-inline-item">
+      <a href="#" data-turbolinks="false" id="presentation-title">
+        <h2>Presentation</h2>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="#" data-turbolinks="false" id='menu-title'>
+        <h2>Menu</h2>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a href="#" data-turbolinks="false" id="book-title">
+        <h2>Cook book</h2>
+      </a>
+    </li>
   </ul>
 </div>
 
-  <div id="presentation-content" class="text-center">
-    <p>Gusteau’s is a restaurant home to the most famous chef in Paris, Auguste Gusteau.</p>
-    <br>
-    <img id="photo" src=" <%= asset_path ( 'gusteaus-ratatouille.jpg' ) %> " alt="">
-  </div>
+<div id="presentation-content" class="text-center">
+  <p>Gusteau’s is a restaurant home to the most famous chef in Paris, Auguste Gusteau.</p>
+  <br>
+  <img id="photo-ratatouille" src=" <%= asset_path ( 'gusteaus-ratatouille.jpg' ) %> " alt="">
+</div>
 
-  <div id="menu-content" class="text-center">
-    <img src=" <%= asset_path ( 'gusteaus-menu.jpg' ) %> " alt="">
-  </div>
+<div id="menu-content" class="text-center">
+  <img id="menu-img" src=" <%= asset_path ( 'gusteaus-menu.jpg' ) %> " alt="">
+</div>
 
-  <div id="book-content" class="text-center">
-    <img src="<%= asset_path ('gusteaus-book.jpg')%>" alt="">
-    <p>Lacking kitchen confidence? No problem. Using simple instructions with accompanying detailed photos demonstrating the instructions, this cookbook provides more than 500 tasty and easy recipes spanning breakfast to dinner and all points in between so you can amaze your friends and family with your culinary skill. Add in the intro chapter that covers kitchen basics such as which appliances are a must and the ingredients for a well stocked pantry, and you'll be on your way to demonstrating Anybody Can Cook.</p>
+<div id="book-content" class="text-center container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="<%= asset_path ('gusteaus-book.jpg')%>" alt="">
+    </div>
+  <div class="col-sm">
+    <p>Lacking kitchen confidence? No problem. Using simple instructions with accompanying detailed photos demonstrating the instructions, this cookbook provides more than 500 tasty and easy recipes spanning breakfast to dinner and all points in between
+        so you can amaze your friends and family with your culinary skill. Add in the intro chapter that covers kitchen basics such as which appliances are a must and the ingredients for a well stocked pantry, and you'll be on your way to demonstrating
+        Anybody Can Cook.</p>
   </div>
+  </div>
+</div>
