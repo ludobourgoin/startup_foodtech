@@ -2,7 +2,7 @@
 A simple restaurant web page project using jQuery library.
 
 
-## ✅ Features 
+### ✅ Features 
 - 3 Tabs
 - Carousel of images
 
