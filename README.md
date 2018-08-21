@@ -1,8 +1,8 @@
-# 🥗Startup Foodtech 
+# 🥗 Startup Foodtech 
 A simple restaurant web page project using jQuery library.
 
 
-## ✅Features 
+## ✅ Features 
 - 3 Tabs
 - Carousel of images
 
@@ -13,20 +13,20 @@ A simple restaurant web page project using jQuery library.
 - font-Awesome
 - jQuery 3
 
-## 🚀App 
+## 🚀 App 
 Link: https://startup-foodtech-ludo.herokuapp.com/#
 
 Or just launch the app on your local server :
 
 Download repo, then write the following command lines in your terminal.
 
-`bundle install`
+`$ bundle install`
 
-`rails db:create`
+`$ rails db:create`
 
-`rails db:migrate`
+`$ rails db:migrate`
 
-## 🙏Life advice 
+## 🙏 Life advice 
 
 _“There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.”_
 
