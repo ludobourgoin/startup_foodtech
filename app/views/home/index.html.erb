@@ -1,3 +1,4 @@
+<!-- Tabs titles -->
 <div class="tabs-title">
   <ul class="list-inline text-center">
     <li class="list-inline-item">
@@ -18,16 +19,15 @@
   </ul>
 </div>
 
+<!-- Tabs content -->
 <div id="presentation-content" class="text-center">
   <p>Gusteau’s is a restaurant home to the most famous chef in Paris, Auguste Gusteau.</p>
   <br>
   <img id="photo-ratatouille" src=" <%= asset_path ( 'gusteaus-ratatouille.jpg' ) %> " alt="">
 </div>
-
 <div id="menu-content" class="text-center">
   <img id="menu-img" src=" <%= asset_path ( 'gusteaus-menu.jpg' ) %> " alt="">
 </div>
-
 <div id="book-content" class="text-center container">
   <div class="row">
     <div class="col-sm">
@@ -39,4 +39,45 @@
         Anybody Can Cook.</p>
   </div>
   </div>
+</div>
+<br><br><br>
+<!-- Caroussel -->
+
+<div class="container text-center">
+  <p>Here's my amazing and <i>not centered</i> fucking slider 🤬</p>
+</div>
+<div class="carousel container">
+
+  <button class="arrows previous">
+    <i class="far fa-arrow-alt-circle-left"></i>
+  </button>
+  <button class="arrows next">
+    <i class="far fa-arrow-alt-circle-right"></i>
+  </button>
+
+  <div class="food-pics">
+    <img value="1" class="carousel-image" src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <img value="2" class="carousel-image" src="https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <img value="3" class="carousel-image" src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <img value="4" class="carousel-image" src="https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <img value="5" class="carousel-image" src="https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+  </div>
+</div>
+
+<div class="image-nav">
+  <button value="1" class="image-dot">
+    <i class="fa fa-circle"></i>
+  </button>
+  <button value="2" class="image-dot active-dot">
+    <i class="fa fa-circle"></i>
+  </button>
+  <button value="3" class="image-dot">
+    <i class="fa fa-circle"></i>
+  </button>
+  <button value="4" class="image-dot">
+    <i class="fa fa-circle"></i>
+  </button>
+  <button value="5" class="image-dot">
+    <i class="fa fa-circle"></i>
+  </button>
 </div>
