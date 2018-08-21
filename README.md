@@ -2,6 +2,11 @@
 
 Live: https://startup-foodtech-ludo.herokuapp.com/#
 
+Énoncé:
+- Page web d'un restaurant
+- 3 liens qui sont des tabs (utiliser jQuery sans la méthode .tabs)
+- Faire un caroussel
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
