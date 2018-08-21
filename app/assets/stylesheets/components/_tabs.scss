@@ -12,7 +12,12 @@ a:hover {
   text-decoration: none;
 }
 
-#photo-ratatouille, #menu-img, #book-content {
+#photo-ratatouille, #book-content {
   width: 80%;
   max-width: 1100px;
+}
+
+#menu-img {
+  width: 80%;
+  max-width: 600px;
 }
