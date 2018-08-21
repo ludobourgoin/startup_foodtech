@@ -4,6 +4,7 @@ $(document).ready(function(){
 );
 
 $('#presentation-title').on('click', function(){
+  $('#presentation-content').show();
   $('#menu-content, #book-content').hide();
 });
 
